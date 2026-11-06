@@ -1768,7 +1768,7 @@
 					"$(PROJECT_DIR)/macports/expat/lib",
 					"$(PROJECT_DIR)/macports/libiconv/lib",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 4.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1796,7 +1796,7 @@
 					"$(PROJECT_DIR)/macports/expat/lib",
 					"$(PROJECT_DIR)/macports/libiconv/lib",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 4.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1825,7 +1825,7 @@
 					"$(PROJECT_DIR)/macports/expat/lib",
 					"$(PROJECT_DIR)/macports/libiconv/lib",
 				);
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 4.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.indexres.cindex64;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1883,7 +1883,6 @@
 				OTHER_LDFLAGS = "-lc++";
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "macports/**";
-				VALID_ARCHS = x86_64;
 			};
 			name = Development;
 		};
@@ -1925,12 +1924,11 @@
 				LD_RUNPATH_SEARCH_PATHS = " @loader_path/../Frameworks";
 				LIBRARY_SEARCH_PATHS = "macports/**";
 				MACH_O_TYPE = mh_execute;
-				ONLY_ACTIVE_ARCH = YES;
+				ONLY_ACTIVE_ARCH = NO;
 				OTHER_LDFLAGS = "-lc++";
 				SDKROOT = macosx;
 				STRIP_INSTALLED_PRODUCT = NO;
 				USER_HEADER_SEARCH_PATHS = "macports/**";
-				VALID_ARCHS = x86_64;
 			};
 			name = Deployment;
 		};
@@ -1974,7 +1972,6 @@
 				OTHER_LDFLAGS = "-lc++";
 				SDKROOT = macosx;
 				USER_HEADER_SEARCH_PATHS = "macports/**";
-				VALID_ARCHS = x86_64;
 			};
 			name = Default;
 		};
